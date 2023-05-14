@@ -3,8 +3,8 @@ import { Rating } from "../components";
 import { useParams } from "react-router-dom";
 import { UseTitle } from "../hooks/UseTitle"
 import { useCart } from "../context/CartContext"
-import { getProduct } from "../services";
 import { toast } from "react-toastify"
+import { getProduct } from "../services";
 
 
 export const ProductDetail = () => {
